@@ -19,14 +19,15 @@
 
 ## Predictors vs ΔEM (Year2→Year3) with FDR / Bonferroni
 
-| predictor                                   |           r |       p_raw |       p_fdr |      p_bonf | sig_fdr   | sig_bonf   |
-|:--------------------------------------------|------------:|------------:|------------:|------------:|:----------|:-----------|
-| Third_Vaccination_Rate_End_Pandemic_Year_3  |  0.931651   | 1.55763e-07 | 5.60747e-06 | 5.60747e-06 | True      | True       |
-| Second_Vaccination_Rate_End_Pandemic_Year_3 |  0.794929   | 0.000233209 | 0.00209888  | 0.00839551  | True      | True       |
-| Mean_Age_2022                               | -0.487236   | 0.0555892   | 0.166768    | 1           | False     | False      |
-| Care_Needs_Percent_31.12.2021               | -0.393007   | 0.132099    | 0.358464    | 1           | False     | False      |
-| Risk_of_poverty_rate_2022                   |  0.386318   | 0.139403    | 0.358464    | 1           | False     | False      |
-| GDP_per_capita_2022                         |  0.327716   | 0.215308    | 0.47615     | 1           | False     | False      |
-| COVID_infections_Pandemic_Year3             |  0.247523   | 0.355344    | 0.639619    | 1           | False     | False      |
-| COVID_deaths_Pandemic_Year3                 |  0.150584   | 0.577757    | 0.831969    | 1           | False     | False      |
-| Measures_Overall_Pandemic_Year3             | -0.00636975 | 0.981321    | 0.981321    | 1           | False     | False      |
+| predictor            |      r |   p_raw |   p_fdr |   p_bonf | sig_fdr   | sig_bonf   |
+|:---------------------|-------:|--------:|--------:|---------:|:----------|:-----------|
+| Booster rate Y3      |  0.932 |   0     |   0     |    0     | ✓         | ✓          |
+| 2-dose rate Y3       |  0.795 |   0     |   0.002 |    0.008 | ✓         | ✓          |
+| Mean age             | -0.487 |   0.056 |   0.167 |    1     |           |            |
+| Care needs %         | -0.393 |   0.132 |   0.358 |    1     |           |            |
+| Poverty rate         |  0.386 |   0.139 |   0.358 |    1     |           |            |
+| GDP per capita       |  0.328 |   0.215 |   0.476 |    1     |           |            |
+| COVID infections Y3  |  0.248 |   0.355 |   0.64  |    1     |           |            |
+| COVID deaths Y3      |  0.151 |   0.578 |   0.832 |    1     |           |            |
+| Policy stringency Y3 | -0.006 |   0.981 |   0.981 |    1     |           |            |
+
