@@ -1,4 +1,4 @@
-# Key tables for Substack
+# Key tables
 
 ## High vs low booster states – excess mortality by year
 
